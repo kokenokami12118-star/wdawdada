@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "string_duper",
+  "version": "${version}",
+  "name": "String Duper",
+  "description": "Brings back the water-flow string duper (tripwire + waterlogged trapdoor) in 1.21.11. Remake of the StringDupersReturn plugin.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.stringduper.StringDuperMod"]
+  },
+  "mixins": ["string_duper.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
